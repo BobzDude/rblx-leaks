@@ -46,7 +46,7 @@ v7.MouseButton1Click:Connect(function()
     v7.Text = "Loading..."
     pcall(function()
         loadstring(game:HttpGet(
-            "https://gist.githubusercontent.com/FakeGuyX/2f8de94070a8a41b0a3308b3f96f8071/raw/8ba5864bc1d188b52ec2f4a2a8a04a39d29367a3/gistfile1.txt",
+            "https://raw.githubusercontent.com/BobzDude/rblx-leaks/refs/heads/main/GUIPosTool/Gui.lua",
             true
         ))()
     end)
