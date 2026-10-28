@@ -1,4 +1,5 @@
--- do not use original script author's tsb script, it has logger :(
+-- do not use original script author's tsb script, it has logger :( 
+-- in my version of tsb script i have removed the logger
 
 if game.PlaceId == 10449761463 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BobzDude/rblx-leaks/refs/heads/main/raymakkTSB.lua"))()
