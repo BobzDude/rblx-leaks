@@ -173,8 +173,6 @@ while true do
 					v34:AdjustSpeed(1)
 					a.Ended:Connect(function() _u0:Stop() end)
 				else
-
--- https://discord.gg/hkQAMzyGum
 					if a.Animation.AnimationId == "rbxassetid://17585782788" then
 						v34 = Instance.new("Animation")
 						v34.AnimationId = "rbxassetid://17147384246"
