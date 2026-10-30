@@ -1,2 +1,2 @@
 # rblx-leaks
-my repository where i leak scripts that i finding
+my repository where i deobf some scripts that im finding on forums 
