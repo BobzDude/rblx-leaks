@@ -33,7 +33,7 @@ v7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 v7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 v7.BorderSizePixel = 0
 v7.AnchorPoint = Vector2.new(0.5, 0.5)
-v7.Position = UDim2.new(0.5, 0, 0.5, 0)   -- по центру окна
+v7.Position = UDim2.new(0.5, 0, 0.5, 0)   -- correcting
 v7.Size = UDim2.new(0, 254, 0, 42)
 v7.Style = Enum.ButtonStyle.RobloxRoundDropdownButton
 v7.Font = Enum.Font.SourceSans
@@ -45,7 +45,7 @@ v7.TextWrapped = true
 v7.MouseButton1Click:Connect(function()
     v7.Text = "Loading..."
     pcall(function()
-        loadstring(game:HttpGet(
+        loadstring(game:HttpGet(     -- my repo
             "https://raw.githubusercontent.com/BobzDude/rblx-leaks/refs/heads/main/GUIPosTool/Gui.lua",
             true
         ))()
